@@ -1,0 +1,10 @@
+-------------------------
+mkvoptimize buglist
+-------------------------
+
+Font tracks dropped if video and audio don't exist (font files can't be dropped into an otherwise empty VAF.mkv)
+The cover.jpg file is detected as a video track (ffmpeg bug)
+No support for secondary video tracks (Because cover.jpg is detected as a video track)
+No support for data tracks in .TS files (Looks complicated, maybe later)
+No support for SWF videos (I'll have to learn how to make my code tell the difference between SWF videos and interactive SWF files)
+No support for drag-and-drop of multiple files (due to the nature of the loop I'll have to handle this part externally, should be doable)
