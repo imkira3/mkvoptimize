@@ -20,6 +20,8 @@ mkvextract
 mkvinfo
 sed
 plus 3 dll files that sed requires to run
+MediaInfo
+Plus 1 dll file that MediaInfo requires to run
 
 After that you can use either mkvoptimize.bat or mkvoptimize.exe, they are the same, just in different formats. Operation is simple, either double click the file to convert every video file in the current directory, or, drag and drop a SINGLE video file onto the mkvoptimize file to convert just one file. Either way the files you work on will need to be in the same folder as mkvoptimize, good thing all its assets are external. (It's only 500kbs!) Files will output to a subfolder named C which will be automatically created, many temporary files will also be generated in C during the conversion process but they will be deleted when the script ends.
 
