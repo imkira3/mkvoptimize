@@ -11,7 +11,7 @@ Subtitles are something else mkvoptimize will alter, at least your text-based su
 
 Font files are included in the final output, but the script doesn't alter them in any way.
 
-Please use and edit the tool as much as you like, everything in here is covered under the GNU Public License including the assets. Installation is simple, just extract the assets zip file and put everything in there in the system32 and SysWow64 directories. The zip file inclides:
+Please use and edit the tool as much as you like, everything in here is covered under the GNU Public License including the assets. Installation is simple, just extract the assets zip file and put everything in there in the system32 and SysWow64 directories. The zip file includes:
 
 ffmpeg
 ffprobe
